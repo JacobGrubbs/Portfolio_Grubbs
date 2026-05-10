@@ -1,6 +1,7 @@
 export default function JacobPortfolio() {
   const skills = [
     "Cybersecurity",
+    "Threat Intelligence",
     "Information Technology Support",
     "Identity and Access Management",
     "Networking",
@@ -8,7 +9,8 @@ export default function JacobPortfolio() {
     "SQL",
     "Java",
     "Node.js",
-    "Microsoft 365",
+    "Express.js",
+    "API Security",
     "Technical Documentation",
   ];
 
@@ -22,6 +24,12 @@ export default function JacobPortfolio() {
   ];
 
   const projects = [
+  {
+    title: "Nexus Intel Lab",
+    desc: "Built an AI-powered threat intelligence dashboard to automate IP reputation scoring. Developed custom Express middleware for Role-Based Access Control (RBAC) and integrated GPT-4o-Mini heuristics to analyze OSINT threat data. Implemented persistent audit logging and a SOC-inspired interface with custom CSS animations.",
+    tools: "Node.js, Express, OpenAI API, Security Middleware, CSS3",
+    link: "https://github.com/JacobGrubbs/nexus-intel-lab",
+  },
   {
     title: "Game Store Java Application",
     desc: "Developed a Java-based game store application using object-oriented programming principles. The program supports customer management, cart functionality, inventory interaction, and purchase workflows through a menu-driven system. This project strengthened my skills in Java programming, class structure, arrays, and user-focused design.",
